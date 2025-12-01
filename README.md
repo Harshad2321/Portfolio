@@ -1,24 +1,24 @@
-# 🚀 Harshad Agrawal - Portfolio
+#  Harshad Agrawal - Portfolio
 
 A modern, responsive portfolio website showcasing my projects, skills, and achievements in AI, Machine Learning, and Full-Stack Development.
 
 [![Deploy to GitHub Pages](https://github.com/Harshad2321/Portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/Harshad2321/Portfolio/actions/workflows/deploy.yml)
 
-## 🌐 Live Demo
+##  Live Demo
 
 Visit my portfolio: [https://harshad2321.github.io/Portfolio/](https://harshad2321.github.io/Portfolio/)
 
-## 👨‍💻 About Me
+##  About Me
 
 I'm Harshad Agrawal, a 2nd-year AI & ML student at Symbiosis Institute of Technology, Pune. I'm passionate about creating impactful AI-driven applications and transforming complex problems into elegant solutions through code.
 
-- 🔭 Currently working on AI-ML projects and web development
-- 🌱 Learning Deep Learning, Advanced ML algorithms, and Cloud Architecture
-- 🎯 Goal: Build a Jarvis-like AI assistant
-- 🏆 6+ Hackathons participated including NASA Space Apps Challenge
-- 📫 Email: harshad.agrawal2005@gmail.com
+-  Currently working on AI-ML projects and web development
+-  Learning Deep Learning, Advanced ML algorithms, and Cloud Architecture
+-  Goal: Build a Jarvis-like AI assistant
+-  6+ Hackathons participated including NASA Space Apps Challenge
+-  Email: harshad.agrawal2005@gmail.com
 
-## ✨ Features
+## Features
 
 - **Modern Design**: Clean, responsive UI with dark/light theme toggle
 - **Project Showcase**: 8 featured projects with live demos
@@ -27,7 +27,7 @@ I'm Harshad Agrawal, a 2nd-year AI & ML student at Symbiosis Institute of Techno
 - **Interactive**: Smooth animations and user-friendly navigation
 - **Fast Loading**: Optimized performance with Next.js
 
-## 🛠️ Built With
+##  Built With
 
 - **Framework**: Next.js 14
 - **Styling**: Tailwind CSS
@@ -36,7 +36,7 @@ I'm Harshad Agrawal, a 2nd-year AI & ML student at Symbiosis Institute of Techno
 - **Deployment**: GitHub Pages
 - **Language**: TypeScript
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Portfolio/
@@ -52,7 +52,7 @@ Portfolio/
 └── .github/workflows/   # GitHub Actions for deployment
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -85,7 +85,7 @@ npm run dev
 npm run build
 ```
 
-## 📊 Featured Projects
+##  Featured Projects
 
 1. **TerraNova** - AI-powered city planning application
 2. **Exoplanet Classifier** - NASA Space Apps Challenge project
@@ -96,13 +96,13 @@ npm run build
 7. **MindMetrics** - Data analysis and ML experiments
 8. **Netflix UI Clone** - Responsive landing page
 
-## 🎓 Education
+##  Education
 
 **B.Tech in Artificial Intelligence & Machine Learning**  
 Symbiosis Institute of Technology, Pune  
-2023 - Present
+2024 - Present
 
-## 🔗 Connect With Me
+##  Connect With Me
 
 - GitHub: [@Harshad2321](https://github.com/Harshad2321)
 - LinkedIn: [Harshad Agrawal](https://www.linkedin.com/in/harshad-agrawal-486964322)
@@ -110,11 +110,11 @@ Symbiosis Institute of Technology, Pune
 - HackerRank: [harshad_agrawal1](https://www.hackerrank.com/profile/harshad_agrawal1)
 - Instagram: [@harshad_agrawal_2005](https://www.instagram.com/harshad_agrawal_2005/)
 
-## 📝 License
+##  License
 
 This project is open source and available under the MIT License.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Next.js team for the amazing framework
 - GitHub Pages for hosting
