@@ -1,10 +1,6 @@
-/**
- * Skills & Technologies configuration
- */
-
 export interface Skill {
   name: string;
-  level: number; // 0-100
+  level: number;
   icon?: string;
 }
 

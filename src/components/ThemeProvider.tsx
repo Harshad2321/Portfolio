@@ -45,7 +45,6 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'));
   };
 
-  // Provide a default context even before mounting to prevent the error
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       {children}

@@ -1,7 +1,3 @@
-/**
- * Learning Journey Timeline
- */
-
 export interface TimelineEvent {
   id: string;
   date: string;
@@ -15,7 +11,7 @@ export interface TimelineEvent {
 export const timelineData: TimelineEvent[] = [
   {
     id: '1',
-    date: '2023 - Present',
+    date: '2024 - Present',
     title: 'B.Tech in AI & Machine Learning',
     description:
       'Currently pursuing my degree at Symbiosis Institute of Technology, Pune. Focusing on deep learning, neural networks, and practical AI applications.',

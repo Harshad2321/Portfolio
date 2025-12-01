@@ -1,10 +1,9 @@
-/** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    unoptimized: true, // Required for static export
+    unoptimized: true,
     formats: ['image/webp', 'image/avif'],
     remotePatterns: [
       {
@@ -17,7 +16,6 @@ const nextConfig = {
       },
     ],
   },
-  // GitHub Pages configuration
   basePath: isProd ? '/Portfolio' : '',
   assetPrefix: isProd ? '/Portfolio/' : '',
   output: 'export',

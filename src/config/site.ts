@@ -1,9 +1,4 @@
-/**
- * Site configuration - Update this file to customize your portfolio
- */
-
 export const siteConfig = {
-  // Personal Information
   name: 'Harshad Agrawal',
   title: 'AI & ML Student | Full-Stack Developer',
   tagline: 'Building intelligent systems and practical AI solutions',
@@ -13,7 +8,6 @@ My journey in tech spans from building full-stack web applications to developing
 
 When I'm not coding, you'll find me exploring new technologies, contributing to open-source, or working on my goal to build a Jarvis-like AI assistant. I'm currently seeking internship opportunities where I can apply my skills and continue learning.`,
 
-  // Contact & Social
   email: 'harshad.agrawal2005@gmail.com',
   github: 'https://github.com/Harshad2321',
   linkedin: 'https://www.linkedin.com/in/harshad-agrawal-486964322',
@@ -22,16 +16,12 @@ When I'm not coding, you'll find me exploring new technologies, contributing to 
   hackerrank: 'https://www.hackerrank.com/profile/harshad_agrawal1',
   website: 'https://harshad2321.github.io/Myself/',
 
-  // Resume
-  resumeUrl: '/resume.pdf', // Place your resume in public/resume.pdf
+  resumeUrl: '/resume.pdf',
 
-  // Theme
   theme: {
-    default: 'dark', // 'dark' or 'light'
-    palette: 'neon', // 'neon' or 'teal'
+    default: 'dark',
+    palette: 'neon',
   },
-
-  // SEO & Analytics
   seo: {
     title: 'Harshad Agrawal - AI & ML Portfolio',
     description:
@@ -45,14 +35,13 @@ When I'm not coding, you'll find me exploring new technologies, contributing to 
       'SIT Pune',
       'AIML',
     ],
-    ogImage: '/og-image.png', // Place your OG image in public/
+    ogImage: '/og-image.png',
   },
 
-  // Features toggle
   features: {
     themeToggle: true,
     certificateDownload: true,
-    analytics: false, // Set to true if using analytics
+    analytics: false,
   },
 };
 

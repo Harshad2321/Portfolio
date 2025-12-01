@@ -1,7 +1,3 @@
-/**
- * Certificates data and categorization
- */
-
 export interface Certificate {
   id: string;
   title: string;

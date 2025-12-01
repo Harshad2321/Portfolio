@@ -10,12 +10,10 @@ export default function Hero() {
   const [animationData, setAnimationData] = useState<any>(null);
 
   useEffect(() => {
-    // Load animation from public folder or use placeholder
     fetch('/animations/hero-animation.json')
       .then((res) => res.json())
       .then((data) => setAnimationData(data))
       .catch(() => {
-        // Use fallback if animation not found
         console.info('Hero animation not found, using fallback');
       });
   }, []);

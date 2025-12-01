@@ -21,7 +21,6 @@ export default function Contact() {
       const endpoint = process.env.NEXT_PUBLIC_FORM_ENDPOINT;
 
       if (!endpoint) {
-        // Fallback to mailto if no form endpoint configured
         window.location.href = `mailto:${siteConfig.email}?subject=Portfolio Contact from ${formData.name}&body=${formData.message}`;
         setStatus('success');
         return;
