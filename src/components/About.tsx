@@ -105,8 +105,9 @@ export default function About() {
 
             {/* Resume Download */}
             <a
-              href={siteConfig.resumeUrl}
-              download
+              href={`${process.env.NODE_ENV === 'production' ? '/Portfolio' : ''}${siteConfig.resumeUrl}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="glow-on-hover glass-button inline-flex items-center gap-2 px-8 py-3 font-semibold transition-colors hover:border-accent-primary"
             >
               <Download className="h-5 w-5" />

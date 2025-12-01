@@ -28,9 +28,15 @@ export default function Certificates() {
   };
 
   const downloadAllCertificates = () => {
-    alert(
-      'Download feature: In a production app, this would generate a ZIP of all certificates. For now, right-click any certificate to download individually.'
-    );
+    const basePath = process.env.NODE_ENV === 'production' ? '/Portfolio' : '';
+    filteredCertificates.forEach((cert) => {
+      const link = document.createElement('a');
+      link.href = `${basePath}/certificates/${cert.filename}`;
+      link.download = cert.filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    });
   };
 
   return (
