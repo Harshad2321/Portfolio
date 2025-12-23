@@ -1,7 +1,5 @@
 export interface Skill {
   name: string;
-  level: number;
-  icon?: string;
 }
 
 export interface SkillCategory {
@@ -11,57 +9,62 @@ export interface SkillCategory {
 
 export const skillsData: SkillCategory[] = [
   {
+    category: 'Agentic AI & LLMs',
+    skills: [
+      { name: 'Agentic AI Systems' },
+      { name: 'ReAct Agent Architecture' },
+      { name: 'Tool-Calling LLMs' },
+      { name: 'Retrieval-Augmented Generation (RAG)' },
+      { name: 'Vector Databases' },
+      { name: 'State Management in AI Workflows' },
+      { name: 'MCP (Model Context Protocol)' },
+    ],
+  },
+  {
+    category: 'Machine Learning & Data',
+    skills: [
+      { name: 'scikit-learn' },
+      { name: 'Pandas' },
+      { name: 'XGBoost' },
+      { name: 'Data Preprocessing' },
+      { name: 'Matplotlib' },
+    ],
+  },
+  {
+    category: 'Backend & APIs',
+    skills: [
+      { name: 'FastAPI' },
+      { name: 'Flask' },
+      { name: 'REST API Design' },
+      { name: 'Pydantic' },
+    ],
+  },
+  {
     category: 'Languages',
     skills: [
-      { name: 'Python', level: 70 },
-      { name: 'C', level: 75 },
-      { name: 'HTML', level: 60 },
-      { name: 'CSS', level: 60 },
-      { name: 'R', level: 50 },
+      { name: 'Python' },
+      { name: 'C' },
+      { name: 'HTML' },
+      { name: 'CSS' },
     ],
   },
   {
-    category: 'AI & Machine Learning',
+    category: 'Databases',
     skills: [
-      { name: 'scikit-learn', level: 70 },
-      { name: 'Pandas', level: 75 },
-      { name: 'Matplotlib', level: 70 },
-      { name: 'Data Preprocessing', level: 75 },
-      { name: 'XGBoost', level: 65 },
-      { name: 'Regression', level: 70 },
+      { name: 'MySQL' },
+      { name: 'MongoDB' },
     ],
   },
   {
-    category: 'Python Concepts',
+    category: 'DevOps & Tools',
     skills: [
-      { name: 'Generators', level: 65 },
-      { name: 'File Handling', level: 75 },
-      { name: 'OOP', level: 70 },
-    ],
-  },
-  {
-    category: 'Database',
-    skills: [
-      { name: 'MySQL', level: 65 },
-      { name: 'MongoDB', level: 50 },
-    ],
-  },
-  {
-    category: 'Tools & Others',
-    skills: [
-      { name: 'Git', level: 75 },
-      { name: 'Google Colab', level: 80 },
-      { name: 'Jupyter Notebook', level: 75 },
-      { name: 'Excel', level: 70 },
-      { name: 'DSA', level: 70 },
-    ],
-  },
-  {
-    category: 'Operating Systems',
-    skills: [
-      { name: 'Windows', level: 60 },
-      { name: 'macOS', level: 65 },
-      { name: 'Linux', level: 50 },
+      { name: 'Docker' },
+      { name: 'Git' },
+      { name: 'GitHub' },
+      { name: 'GitLab' },
+      { name: 'Linux' },
+      { name: 'AWS' },
+      { name: 'UV Package Manager' },
     ],
   },
 ];
