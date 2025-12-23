@@ -23,15 +23,15 @@ When I'm not coding, you'll find me exploring new technologies, contributing to 
     palette: 'neon',
   },
   seo: {
-    title: 'Harshad Agrawal - AI & ML Portfolio',
+    title: 'Harshad Agrawal - AI & ML Engineer',
     description:
       '2nd-year AI & ML student building innovative projects. Explore my work in artificial intelligence, machine learning, and full-stack development.',
     keywords: [
       'Harshad Agrawal',
-      'AI Developer',
+      'AI Engineer',
+      'Agentic AI',
       'Machine Learning',
-      'Full-Stack Developer',
-      'Portfolio',
+      'Backend Developer',
       'SIT Pune',
       'AIML',
     ],

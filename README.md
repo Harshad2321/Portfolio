@@ -1,12 +1,12 @@
-#  Harshad Agrawal - Portfolio
+#  Harshad Agrawal - AI Engineer Portfolio
 
-A modern, responsive portfolio website showcasing my projects, skills, and achievements in AI, Machine Learning, and Full-Stack Development.
+A modern, responsive portfolio website showcasing my projects, skills, and achievements in Agentic AI, Machine Learning, and Backend Development.
 
-[![Deploy to GitHub Pages](https://github.com/Harshad2321/Portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/Harshad2321/Portfolio/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/Harshad2321/myself/actions/workflows/deploy.yml/badge.svg)](https://github.com/Harshad2321/myself/actions/workflows/deploy.yml)
 
 ##  Live Demo
 
-Visit my portfolio: [https://harshad2321.github.io/Portfolio/](https://harshad2321.github.io/Portfolio/)
+Visit my portfolio: [https://harshad2321.github.io/Myself/](https://harshad2321.github.io/Myself/)
 
 ##  About Me
 
@@ -39,7 +39,7 @@ I'm Harshad Agrawal, a 2nd-year AI & ML student at Symbiosis Institute of Techno
 ##  Project Structure
 
 ```
-Portfolio/
+myself/
 ├── src/
 │   ├── app/              # Next.js app directory
 │   ├── components/       # React components
@@ -63,8 +63,8 @@ Portfolio/
 
 1. Clone the repository
 ```bash
-git clone https://github.com/Harshad2321/Portfolio.git
-cd Portfolio
+git clone https://github.com/Harshad2321/myself.git
+cd myself
 ```
 
 2. Install dependencies

@@ -16,8 +16,8 @@ const nextConfig = {
       },
     ],
   },
-  basePath: isProd ? '/Portfolio' : '',
-  assetPrefix: isProd ? '/Portfolio/' : '',
+  basePath: isProd ? '/Myself' : '',
+  assetPrefix: isProd ? '/Myself/' : '',
   output: 'export',
   trailingSlash: true,
 }
